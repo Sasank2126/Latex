@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2024.8.27)  18 OCT 2024 06:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2024.8.27)  18 OCT 2024 06:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -22,8 +22,39 @@ File: size12.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
 \abovecaptionskip=\skip48
 \belowcaptionskip=\skip49
 \bibindent=\dimen140
-)
-(/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty
+) (./gvv-book.sty
+
+! LaTeX Error: Command \thesectiondis undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 \renewcommand\thesectiondis
+                               {\arabic{section}}
+? 
+
+! LaTeX Error: Command \thesubsectiondis undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7 \renewcommand\thesubsectiondis
+                                  {\thesectiondis.\arabic{subsection}}
+? 
+
+! LaTeX Error: Command \thesubsubsectiondis undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8 \renewcommand\thesubsubsectiondis
+                                     {\thesubsectiondis.\arabic{subsubsection}}
+
+? 
+) (./gvv.sty (/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty
 (/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2023-01-16 L3 programming layer (loader) 
@@ -719,7 +750,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip73
 )
-Package hyperref Info: Option `bookmarksopen' set `false' on input line 52.
+Package hyperref Info: Option `bookmarksopen' set `false' on input line 51.
 
 (/usr/share/texlive/texmf-dist/tex/latex/breakurl/breakurl.sty
 Package: breakurl 2013/04/10 v1.40 Breakable hyperref URLs
@@ -1167,62 +1198,31 @@ ex
 \c@proposition=\count372
 \c@lemma=\count373
 \c@example=\count374
-
-
-! LaTeX Error: Command \thesectiondis undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.122 \renewcommand\thesectiondis
-                                 {\arabic{section}}
-? 
-
-! LaTeX Error: Command \thesubsectiondis undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.123 \renewcommand\thesubsectiondis
-                                    {\thesectiondis.\arabic{subsection}}
-? 
-
-! LaTeX Error: Command \thesubsubsectiondis undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.124 \renewcommand\thesubsubsectiondis
-                                       {\thesubsectiondis.\arabic{subsubsect...
-
-? 
 \c@matchleft=\count375
 \c@matchright=\count376
-(./demo.aux)
+) (./demo.aux)
 \openout1 = `demo.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 158.
-LaTeX Font Info:    ... okay on input line 158.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 158.
-LaTeX Font Info:    ... okay on input line 158.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 158.
-LaTeX Font Info:    ... okay on input line 158.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 158.
-LaTeX Font Info:    ... okay on input line 158.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 158.
-LaTeX Font Info:    ... okay on input line 158.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 158.
-LaTeX Font Info:    ... okay on input line 158.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 158.
-LaTeX Font Info:    ... okay on input line 158.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 158.
-LaTeX Font Info:    ... okay on input line 158.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 158.
-LaTeX Font Info:    ... okay on input line 158.
- (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count377
 \scratchdimen=\dimen353
@@ -1245,59 +1245,59 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \c@lstlisting=\count383
-LaTeX Info: Redefining \celsius on input line 158.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 158
-.
+LaTeX Info: Redefining \celsius on input line 15.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 15.
+
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 158.
-Package gensymb Info: Using \Omega for \ohm on input line 158.
+LaTeX Info: Redefining \ohm on input line 15.
+Package gensymb Info: Using \Omega for \ohm on input line 15.
 
 Package gensymb Warning: Not defining \micro.
 
-Package hyperref Info: Link coloring OFF on input line 158.
+Package hyperref Info: Link coloring OFF on input line 15.
 (./demo.out) (./demo.out)
 \@outlinefile=\write4
 \openout4 = `demo.out'.
 
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 16
-4.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 21
+.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 164
-.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 21.
+
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 164
-.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 21.
+
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 16
-4.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 21
+.
 
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-Underfull \hbox (badness 10000) in paragraph at lines 171--172
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
 
  []
 
 
-Overfull \hbox (32.45169pt too wide) in paragraph at lines 180--182
+Overfull \hbox (32.45169pt too wide) in paragraph at lines 37--39
 []\OT1/cmr/m/n/12 Using el-e-men-tary trans-for-ma-tions, find the in-verse of 
 the ma-trix: $[] \OML/cmm/m/it/12 :$ 
  []
 
 
-Overfull \hbox (32.45169pt too wide) in paragraph at lines 183--185
+Overfull \hbox (32.45169pt too wide) in paragraph at lines 40--42
 []\OT1/cmr/m/n/12 Using el-e-men-tary trans-for-ma-tions, find the in-verse of 
 the ma-trix: $[] \OML/cmm/m/it/12 :$ 
  []
@@ -1322,23 +1322,17 @@ Non-PDF special ignored!
 <special> ps:tx@Dict begin  gsave STV CP T /ps@refangle 0.  def grestore  e...
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4] [5]
 (./demo.aux)
-
-Package rerunfilecheck Warning: File `demo.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `demo.out':
-(rerunfilecheck)             Before: DFD409048FFA47DCD5B437835ADD791C;1060
-(rerunfilecheck)             After:  400E642FB3AC93AB6C1B434923B01FF6;1055.
+Package rerunfilecheck Info: File `demo.out' has not changed.
+(rerunfilecheck)             Checksum: 400E642FB3AC93AB6C1B434923B01FF6;1055.
  ) 
 Here is how much of TeX's memory you used:
- 31817 strings out of 476091
- 623264 string characters out of 5794081
+ 31859 strings out of 476091
+ 624273 string characters out of 5794081
  1871330 words of memory out of 5000000
- 51411 multiletter control sequences out of 15000+600000
+ 51447 multiletter control sequences out of 15000+600000
  521119 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 203i,8n,203p,1151b,701s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 218i,8n,217p,1152b,701s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texli
